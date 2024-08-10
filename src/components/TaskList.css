@@ -1,0 +1,66 @@
+/* TaskList.css */
+
+.tasklists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .task-item {
+    width: 100%;
+    max-width: 800px; /* Adjust this value if needed */
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .task-item div {
+    margin-top: 10px;
+  }
+  
+  .tasks-page h2 {
+    text-align: center; /* Center text horizontally */
+    width: 100%; /* Make the header take up full width for proper centering */
+    margin-bottom: 20px; /* Space below the header */
+  } 
+  
+  .tasks-page .task-item {
+    margin-bottom: 10px;
+    width: 80%;
+  } 
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mark-done {
+    background-color: #28a745;
+  }
+  
+  .edit {
+    background-color: #ffc107;
+  }
+  
+  .delete {
+    background-color: #dc3545;
+  }
+  
